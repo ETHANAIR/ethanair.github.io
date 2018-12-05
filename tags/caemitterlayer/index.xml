@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caemitterlayer on Ethan</title>
+    <link>https://ethanair.github.io/tags/caemitterlayer/</link>
+    <description>Recent content in Caemitterlayer on Ethan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 16 Nov 2016 19:13:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://ethanair.github.io/tags/caemitterlayer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple demo about the class of CAEmitterLayer</title>
+      <link>https://ethanair.github.io/posts/caemitterlayer/</link>
+      <pubDate>Wed, 16 Nov 2016 19:13:37 +0800</pubDate>
+      
+      <guid>https://ethanair.github.io/posts/caemitterlayer/</guid>
+      <description>The CAEmitterLayer class provides a particle emitter system for Core Animation. The particles are defined by instances of CAEmitterCell.
+You should get some information about CAEmitterLayer from Apple Document before we start it. This class is inherits from CALayer, so we do not import any frameworks when we use it. We will use some properties in this demo like this list:
+CAEmitterLayer  emitterPosition - The position of the center of the particle emitter.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<title>Simple demo about the class of CAEmitterLayer</title>
+	<link rel="stylesheet" href="/css/style.min.bde2f5cd3b77a52d8db26f638dfed4b52085d3ea252fdf5746658b9883382220.css" integrity="sha256-veL1zTt3pS2Nsm9jjf7UtSCF0+olL99XRmWLmIM4IiA=">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://ethanair.github.io/">Ethan</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					<a href="/posts/">Posts</a>
+					<a href="/about/">About</a>
+				</nav>
+			</div>
+			<div class="hdr-right">
+				<div class="hdr-icons">
+					<span class="hide-in-mobile"><a href="https://twitter.com/EthanHuntC" target="_blank" rel="noopener"><span class="screen-reader-text">twitter</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://instagram.com/ethanairr" target="_blank" rel="noopener"><span class="screen-reader-text">instagram</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a><a href="https://github.com/ethanair" target="_blank" rel="noopener"><span class="screen-reader-text">github</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span>
+					<button id="menu-btn" class="hdr-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast" style="display: none;">
+		<ul>
+			<li><a href="/posts/">Posts</a></li>
+			<li><a href="/about/">About</a></li>
+		</ul>
+	</div>
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Nov 16, 2016</span></div>
+				<h1>Simple demo about the class of CAEmitterLayer</h1>
+			</header>
+			<div class="content">
+				
+
+<p><img src="https://ethanair.me/wp-content/uploads/2016/11/ScreenShot.png" alt="" />
+<a href="https://developer.apple.com/reference/quartzcore/caemitterlayer" target="_blank">The CAEmitterLayer class provides a particle emitter system for Core Animation. The particles are defined by instances of CAEmitterCell.</a></p>
+
+<p>You should get some information about CAEmitterLayer from Apple Document before we start it. <br>
+This class is inherits from <a href="https://developer.apple.com/reference/quartzcore/calayer" target="_blank">CALayer</a>, so we do not import any frameworks when we use it. <br></p>
+
+<p>We will use some properties in this demo like this list:</p>
+
+<h3 id="caemitterlayer">CAEmitterLayer</h3>
+
+<ul>
+<li>emitterPosition - The position of the center of the particle emitter. Animatable.</li>
+<li>emitterSize - Determines the size of the particle emitter shape. Animatable.</li>
+<li>emitterMode - Defines how particle cells are rendered into the layer.</li>
+<li>emitterShape - Specifies the emitter shape.</li>
+<li>emitterCells - The array emitter cells attached to the layer.</li>
+</ul>
+
+<h3 id="caemittercell">CAEmitterCell</h3>
+
+<ul>
+<li>birthRate - The number of emitted objects created every second.</li>
+<li>lifetime - The lifetime of each emitted object in seconds.</li>
+<li>velocity - The initial mean velocity of each emitted object.</li>
+<li>xAcceleration - The acceleration vector applied to emitted objects.</li>
+<li>yAcceleration - The acceleration vector applied to emitted objects.</li>
+<li>emissionRange - An angle (in radians) defining a cone around the emission angle.</li>
+<li>spinRange - The rotation speed applied to each emitted object.</li>
+<li>scale - Defines a multiplier applied to the cell-defined particle scale.</li>
+<li>contents - The cell contents, typically a CGImageRef.</li>
+<li>color - The mean color of each emitted object.</li>
+</ul>
+
+<p>First of all, we must set a position and size for emitterLayer shape.</p>
+
+<pre><code>snowEmitter.emitterPosition = CGPoint(x: width / 2.0, y: 0) 
+snowEmitter.emitterSize = CGSize(width: width * 2.0, height: 0.0)
+</code></pre>
+
+<p>Then we can chose the mode and shape which we want.</p>
+
+<pre><code>snowEmitter.emitterMode = kCAEmitterLayerSurface
+snowEmitter.emitterShape = kCAEmitterLayerRectangle
+</code></pre>
+
+<p>Now, we must create CAEmitterCell. You should prepare an image looks like snow shape or any you want.</p>
+
+<pre><code>func cellWithPoint(points: CGPoint) -&gt; CAEmitterCell {
+    let snowFlake = CAEmitterCell.init()
+    snowFlake.birthRate = 5
+    snowFlake.lifetime = 120.0 
+    snowFlake.velocity = CGFloat(arc4random()%4)
+    snowFlake.xAcceleration = points.x * 0.02 
+    snowFlake.yAcceleration = points.y * 1.1
+    snowFlake.emissionRange = CGFloat(0.5 * M_PI)
+    snowFlake.spinRange = CGFloat(2 * M_PI)
+    snowFlake.scale = 0.05
+    snowFlake.contents = UIImage.init(named: &quot;DazRing&quot;)?.cgImage
+    snowFlake.color = UIColor.white.cgColor
+    return snowFlake;
+}
+</code></pre>
+
+<p>We create six cells here to let the snow looks like heavliy.</p>
+
+<pre><code>let temArray = NSMutableArray.init()
+
+temArray.add(self.cellWithPoint(points: CGPoint(x: 1, y: 1)))
+temArray.add(self.cellWithPoint(points: CGPoint(x: 1, y: 1)))
+temArray.add(self.cellWithPoint(points: CGPoint(x: 1, y: 1)))
+temArray.add(self.cellWithPoint(points: CGPoint(x: 1, y: 1)))
+temArray.add(self.cellWithPoint(points: CGPoint(x: 1, y: 1)))
+temArray.add(self.cellWithPoint(points: CGPoint(x: 1, y: 1)))        
+
+snowEmitter.emitterCells = NSArray.init(array: temArray) as? [CAEmitterCell]
+</code></pre>
+
+<p>Finally, we should add or insert <em>snowEmitter</em> to some view.</p>
+
+<pre><code>snowView.layer.insertSublayer(snowEmitter, at: 0)
+</code></pre>
+
+<p>Run it.</p>
+
+<p><a href="https://github.com/ETHANAIR/CAEmitterLayerDemo" target="_blank">You can download this demo at this</a></p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://ethanair.github.io/tags/swift">Swift</a></span><span class="tag"><a href="https://ethanair.github.io/tags/ios">iOS</a></span><span class="tag"><a href="https://ethanair.github.io/tags/caemitterlayer">CAEmitterLayer</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>402 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2016-11-16 19:13 &#43;0800</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://ethanair.github.io/posts/statistics/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>STATISTICS BUTTONS WHERE USERS CLICKE</span>
+			</a>
+			<a class="prev-post" href="https://ethanair.github.io/posts/lemp/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>LEMP &#43; WordPress &#43; Let’s Encrypt with Nginx in Ubuntu 16.04</span>
+			</a>
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2018 <a href="https://ethanair.github.io/">Ethan</a></p>
+		<p>Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://ethanair.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
+	</footer>
+	<script>let haveHeader = true;</script>
+
+	<script src="/js/main.min.00689ba18bbf9422fda222b02b555f01d54bfbb9b6d02f9bcffad67bdb2ff2cd.js" integrity="sha256-AGiboYu/lCL9oiKwK1VfAdVL+7m20C+bz/rWe9sv8s0="></script>
+	
+</body>
+
+</html>
