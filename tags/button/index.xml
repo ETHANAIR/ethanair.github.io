@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Button on Ethan</title>
-    <link>https://ethanair.github.io/tags/button/</link>
+    <link>http://ethanair.github.io/tags/button/</link>
     <description>Recent content in Button on Ethan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 20 Jun 2017 19:30:08 +0800</lastBuildDate>
     
-	<atom:link href="https://ethanair.github.io/tags/button/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ethanair.github.io/tags/button/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>STATISTICS BUTTONS WHERE USERS CLICKE</title>
-      <link>https://ethanair.github.io/posts/statistics/</link>
+      <link>http://ethanair.github.io/posts/statistics/</link>
       <pubDate>Tue, 20 Jun 2017 19:30:08 +0800</pubDate>
       
-      <guid>https://ethanair.github.io/posts/statistics/</guid>
+      <guid>http://ethanair.github.io/posts/statistics/</guid>
       <description>Why? There is a demand when I at an interview. So I write this demo to note this tips.
 Get the button&#39;s infomation and current ViewController where the button has been clicked.  How? In my idea 1. Redefine the button&amp;rsquo;s response event with runtime. 2. Create a class to get the current ViewController. 3. Add a function in to the button&amp;rsquo;s response event.
 So let&amp;rsquo;s start it!  First we should add a category with UIButton named (UIButton+Counting), then import the runtime with (#import ), and redefine the (+ (void)load).</description>

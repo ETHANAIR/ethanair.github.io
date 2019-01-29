@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uicollectionviewlayout on Ethan</title>
-    <link>https://ethanair.github.io/tags/uicollectionviewlayout/</link>
+    <link>http://ethanair.github.io/tags/uicollectionviewlayout/</link>
     <description>Recent content in Uicollectionviewlayout on Ethan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 13 Apr 2018 19:34:20 +0800</lastBuildDate>
     
-	<atom:link href="https://ethanair.github.io/tags/uicollectionviewlayout/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ethanair.github.io/tags/uicollectionviewlayout/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>你真的会使用UICollectionViewLayout吗？</title>
-      <link>https://ethanair.github.io/posts/uicollectionviewlayout/</link>
+      <link>http://ethanair.github.io/posts/uicollectionviewlayout/</link>
       <pubDate>Fri, 13 Apr 2018 19:34:20 +0800</pubDate>
       
-      <guid>https://ethanair.github.io/posts/uicollectionviewlayout/</guid>
+      <guid>http://ethanair.github.io/posts/uicollectionviewlayout/</guid>
       <description>你真的会使用UICollectionViewLayout吗？ 这阵子接到一个需求，让我对UICollectionView有了新的认识，促使我对</description>
     </item>
     

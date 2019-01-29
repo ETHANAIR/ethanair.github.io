@@ -3,109 +3,114 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ethanair.github.io/about/</loc>
+    <loc>http://ethanair.github.io/posts/beijing/</loc>
+    <lastmod>2019-01-30T01:42:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ethanair.github.io/about/</loc>
     <lastmod>2018-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/posts/uicollectionviewlayout/</loc>
+    <loc>http://ethanair.github.io/posts/uicollectionviewlayout/</loc>
     <lastmod>2018-04-13T19:34:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/posts/statistics/</loc>
+    <loc>http://ethanair.github.io/posts/statistics/</loc>
     <lastmod>2017-06-20T19:30:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/posts/caemitterlayer/</loc>
+    <loc>http://ethanair.github.io/posts/caemitterlayer/</loc>
     <lastmod>2016-11-16T19:13:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/posts/lemp/</loc>
+    <loc>http://ethanair.github.io/posts/lemp/</loc>
     <lastmod>2016-11-08T19:24:48+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/</loc>
+    <loc>http://ethanair.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/button/</loc>
+    <loc>http://ethanair.github.io/tags/button/</loc>
     <lastmod>2017-06-20T19:30:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/caemitterlayer/</loc>
+    <loc>http://ethanair.github.io/tags/caemitterlayer/</loc>
     <lastmod>2016-11-16T19:13:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <loc>http://ethanair.github.io/</loc>
+    <lastmod>2019-01-30T01:42:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/ios/</loc>
+    <loc>http://ethanair.github.io/tags/ios/</loc>
     <lastmod>2018-04-13T19:34:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/lemp/</loc>
+    <loc>http://ethanair.github.io/tags/lemp/</loc>
     <lastmod>2016-11-08T19:24:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/nginx/</loc>
+    <loc>http://ethanair.github.io/tags/nginx/</loc>
     <lastmod>2016-11-08T19:24:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/objc/</loc>
+    <loc>http://ethanair.github.io/tags/objc/</loc>
     <lastmod>2017-06-20T19:30:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/posts/</loc>
+    <loc>http://ethanair.github.io/posts/</loc>
+    <lastmod>2019-01-30T01:42:45+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ethanair.github.io/tags/swift/</loc>
     <lastmod>2018-04-13T19:34:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/swift/</loc>
-    <lastmod>2018-04-13T19:34:20+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ethanair.github.io/tags/</loc>
+    <loc>http://ethanair.github.io/tags/</loc>
     <lastmod>2017-06-20T19:30:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/ubuntu/</loc>
+    <loc>http://ethanair.github.io/tags/ubuntu/</loc>
     <lastmod>2016-11-08T19:24:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/uicollectionviewlayout/</loc>
+    <loc>http://ethanair.github.io/tags/uicollectionviewlayout/</loc>
     <lastmod>2018-04-13T19:34:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ethanair.github.io/tags/wordpress/</loc>
+    <loc>http://ethanair.github.io/tags/wordpress/</loc>
     <lastmod>2016-11-08T19:24:48+08:00</lastmod>
     <priority>0</priority>
   </url>

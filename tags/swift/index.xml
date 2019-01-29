@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swift on Ethan</title>
-    <link>https://ethanair.github.io/tags/swift/</link>
+    <link>http://ethanair.github.io/tags/swift/</link>
     <description>Recent content in Swift on Ethan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 13 Apr 2018 19:34:20 +0800</lastBuildDate>
     
-	<atom:link href="https://ethanair.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ethanair.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>你真的会使用UICollectionViewLayout吗？</title>
-      <link>https://ethanair.github.io/posts/uicollectionviewlayout/</link>
+      <link>http://ethanair.github.io/posts/uicollectionviewlayout/</link>
       <pubDate>Fri, 13 Apr 2018 19:34:20 +0800</pubDate>
       
-      <guid>https://ethanair.github.io/posts/uicollectionviewlayout/</guid>
+      <guid>http://ethanair.github.io/posts/uicollectionviewlayout/</guid>
       <description>你真的会使用UICollectionViewLayout吗？ 这阵子接到一个需求，让我对UICollectionView有了新的认识，促使我对</description>
     </item>
     
     <item>
       <title>Simple demo about the class of CAEmitterLayer</title>
-      <link>https://ethanair.github.io/posts/caemitterlayer/</link>
+      <link>http://ethanair.github.io/posts/caemitterlayer/</link>
       <pubDate>Wed, 16 Nov 2016 19:13:37 +0800</pubDate>
       
-      <guid>https://ethanair.github.io/posts/caemitterlayer/</guid>
+      <guid>http://ethanair.github.io/posts/caemitterlayer/</guid>
       <description>The CAEmitterLayer class provides a particle emitter system for Core Animation. The particles are defined by instances of CAEmitterCell.
 You should get some information about CAEmitterLayer from Apple Document before we start it. This class is inherits from CALayer, so we do not import any frameworks when we use it. We will use some properties in this demo like this list:
 CAEmitterLayer  emitterPosition - The position of the center of the particle emitter.</description>
